@@ -1,0 +1,31 @@
+public StudentVO getStudent(String st_num) {
+
+//1. StudentVO를 null로 clear, null값을 StudentVO에 할당
+for(StudentVO studentVO : studentList) {
+
+StudentList를(순서대로) 뒤지면서
+for(StudentVO studentVO : studentList) {
+
+
+//3. 매개변수로 받은 st_num가 학생정보에서 나타나는지 검사
+//4. 만약 있으면 해당하는 학생정보를 studentVO에 복사하고
+반복문을 종료
+if(stvo.getnum(),equals(st_num)) {
+studentVO = stVO;
+break;
+
+만약 studentList에서 해당학번을 못찾으면
+ 반복문을 끝까지 진행
+ 
+ 만약 중간에 if, break를 만나고 for문이 중단된 상태라면
+ studentVO에는 stVO가 담겨 있을 것이고
+ for반복문이 끝까지 진행된 상태라면
+ studentVO에는 null값이 담겨 있을 것이다.
+ return studentVO;
+ 
+ 과목명을 문자열 배열로 선언하고,
+ 과목명 문자열 배열 개수만큼 
+ 
+ StudentVO retVO = stService.getStudent(st_num)
+
+
